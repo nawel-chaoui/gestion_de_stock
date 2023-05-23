@@ -1,11 +1,11 @@
-import tkinter
+import tkinter as tk
 import mysql.connector
 
 # Connexion à la base de données
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="*********",
+    password=" ",
     database="boutique"
 )
 
@@ -13,13 +13,5 @@ mydb = mysql.connector.connect(
 root = tk.Tk()
 root.title("Gestion de stock")
 
-
 # Lancer la boucle principale
 root.mainloop()
-
-
-
-
-
-
-
